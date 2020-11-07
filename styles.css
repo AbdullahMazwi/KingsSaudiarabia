@@ -1,0 +1,338 @@
+div { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+
+body{
+    background-color: #065446;
+    text-align: center;
+    color:black;
+    scroll-behavior: smooth;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.logo{
+    height: 75px;
+    border-radius: 100%;
+    width: 110px;
+    margin-bottom: 20px;
+}
+.logo1{
+    height: 50px;
+    width:70px;
+    margin-top: 8%;
+}
+.logo2{
+    height: 70px;
+    width: 70px;
+}
+.lk {
+    padding-top: 15px;
+}
+
+.nav{
+    height: 50px;
+    z-index: 10;
+}
+
+.link{
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    
+
+}
+.bigCard{
+    min-width: 30%;
+    min-width: 671px;
+}
+.card{
+
+background-color:  #d1d5db;
+margin-left: auto;
+margin-right: 40px;
+margin-top: 8vh;
+border-radius:25px;
+transition: transform .2s;
+
+max-height: 329px;
+
+box-sizing: border-box;
+display: inline-block;
+box-shadow: 6px 9px 30px 2px rgba(0,0,0,0.49);
+height: 276px;
+}
+
+
+
+.card:hover{
+    animation-name: hoover;
+    animation-duration: 2s;
+    transform: scale(1.1);
+    box-shadow: 6px 9px 30px 2px rgba(0,0,0,0.49); 
+}
+
+.btn{
+    margin-top: 4vh;
+}
+
+@keyframes hoover {
+
+0% {        }
+100% {      box-shadow: 6px 9px 30px 2px rgba(0,0,0,0.49);     }
+
+}
+
+p{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+    
+}
+
+.photo{
+    height: 275px;
+    width: 230px;
+    border-radius: 25px;
+}
+
+
+.indexx{
+    padding-left: 25px;
+}
+
+
+
+a{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+
+}
+
+.bg1{
+
+   display: inline-block;
+    height: 300px;
+    width: 200px;
+}
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+}
+.aziz{
+    border-radius: 25px;
+  width: 350px;
+    margin-top: 5%; 
+}
+
+.Saud{
+    width: 250px;
+    margin-top: 3%;
+    border-radius: 25px;
+}
+.fahad{
+    width: 250px;
+    margin-top: 0%;
+    margin-right: 1%;
+    border-radius: 25px;
+}
+
+.Khalid{
+    width: 200px;
+    border-radius: 25px;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+.Faisal{
+    width: 200px;
+    border-radius: 25px;
+    margin-right:  1%;
+    margin-top: 1%;
+}
+
+.par{
+    font-size: 1.4rem;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+   padding-top: 50px;
+}
+
+.container-fluid{
+    
+    
+    
+    
+    height: 560px;
+}
+.title{
+    padding-top: 100px;
+}
+.titleH2{
+    margin-top: 5%;
+}
+.header{
+    width: 100%;
+    height: 400px;
+    background-color: #d1d5db;
+    display: inline-block;
+    border-radius: 0 0 95px 95px; 
+    border-style: solid;
+    border-width: 3px;
+    border-color:black;
+}
+
+.name{
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card-text, .card-header, .card-title {
+    color: black;
+    text-align: center;
+}
+
+.achi{
+    text-align: center;
+    color: white;
+    margin-top: 5vh;
+}
+.view{
+    color: white;
+}
+
+.slider{
+    z-index: -1;
+    
+    height: 950px;
+}
+
+.sliderIMG{
+    height: 950px;
+   
+}
+.sliderIMG1{
+    height: 950px;
+}
+.carousel-inner{
+    width: 100%;
+    height: 950px;
+
+}
+
+.info{
+    width: 100%;
+    height: 1000px;
+    
+    
+}
+.infographic{
+    border-radius: 40px;
+    margin-left: 1%;
+    margin-top: 10%;
+    margin-bottom: 14%;
+    height: 35%;
+    width: 30%;
+}
+.infographic1{
+    border-radius: 40px;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    height: 40%;
+    width: 25%;
+}
+
+.infographic2{
+    border-radius: 40px;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    height: 45%;
+    width: 20%;
+}
+h2 {color: white;}
+
+.slider-p{
+    color: white;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 6%;
+  }
+  .slider:hover .sliderIMG {
+    opacity: 0.3;
+  }
+  
+  .slider:hover .middle {
+    opacity: 1;
+  }
+
+  .text-update{
+      height: 70px;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      align-items: center;
+      
+  }
+  .news{
+      margin-top: 0%;
+      background-color: #026e5a;
+      
+  }
+  .text-update p{
+      position: absolute;
+      width: 600%;
+      margin: 0;
+      transform: translateX(100%);
+      animation: moving 45s linear infinite;
+      
+  }
+  .ticker{
+      margin-left: 1.2%;
+      color: white;
+  }
+  .footer{
+    margin-top: 5%;
+    background-color: #026e5a;
+    height: 100px;
+  }
+  @keyframes moving {
+      0%{
+          transform: translateX(100%);
+      }
+     100%{
+        transform: translateX(-100%);
+    }
+  }
+  
+
+@media only screen and (max-width: 1425px) {
+    .bigCard {
+        min-width: 630px;
+        max-width: 630px;
+       
+   }
+   .text-update p{
+       width: 850%;
+       animation: moving 55s linear infinite;
+   }
+
+
+
